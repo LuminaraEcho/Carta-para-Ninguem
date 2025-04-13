@@ -8,8 +8,6 @@
 body {
   background-color: var(--bg-color);
   font-family: "Playfair Display", serif;
-  height: 100vh;
-
 }
 
 /* Formatação do header */
@@ -37,6 +35,8 @@ body {
 }
 
 .button_header {
+  display: block;
+  text-align: center;
   width: 100%;
   padding: .7rem;
   background-color: #A67C6B;
@@ -85,6 +85,7 @@ body {
 
 textarea {
   width: 100%;
+  max-width: 600px;
   height: 100px;
   padding: 10px;
   font-size: 16px;
